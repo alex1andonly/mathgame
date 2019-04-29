@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hauskuuksia Horisontissa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/yhteinen.css">
+    <link rel="stylesheet" href="Amar.css">
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light navbar-blue">
+      <a class="navbar-brand" href="#">
+        <span>&nbsp;</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link varjo" href="Pohja.html">Etusivu <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item dropdown varjo">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Matikkatehtävät
+          <span class="fas fa-calculator fa-xs"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="matikka.html">Kuvatehtävä</a>
+          <a class="dropdown-item" href="../Juha/plus.html">Plus ja miinus</a>
+          <a class="dropdown-item" href="../Nora/murto.html">Murtolaskuja</a>
+          <a class="dropdown-item" href="../Sami/kuvioarvoitus.html">Kuvioarvoitus</a>
+        </div>
+      </li>
+          <li class="nav-item dropdown varjo">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Visatehtävät
+          <span class="fas fa-chalkboard fa-xs"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../Sami/musiikkivisa.html">Musiikki</a>
+          <a class="dropdown-item" href="../Nora/engvisa.html">Englanti</a>
+          <a class="dropdown-item" href="visa.html">Ympäristöoppi</a>
+          <a class="dropdown-item" href="../Juha/visva.html">Kuvataide</a>
+        </div>
+      </li>
+          <li class="nav-item varjo">
+            <a class="nav-link" href="../Yhteystiedot.html">Yhteystiedot</a>
+          </li>
+        </ul>
+        <a href="#"><i class="fab fa-facebook-square fa-3x mr-sm-2"></i></a>
+      </div>
+    </nav>
+    <img class="d-none d-lg-block d-xl-none d-xl-block logo" src="../Img/lollero.png" alt="">
+
+</div>
+
+
+        <div class="container">
+            <!--I assume this is where we insert our shit.-->
+            <!-- Jos te runkkarit saatte tän kuvan toimimaan, olen kiitollinen. <img class="scroll centerify col-md-6" style="margin-bottom:-800px;margin-top: -50px" src="../img/am/scroll.png" alt=""/>-->
+            <div class="centerify">
+                <div class="intro"><h1>Tietovisa</h1>
+                    <p>Piraattipartioon tarvitaan hyviä kasvien asiantuntijoita ruoan etsimiseen. Näytä heille, että sinussa on ainesta!</p></div>
+                <button id="start" onclick="disableNRun()" class="button centerify badge badge-success">Aloita!</button>
+                <div id="entire" class="centrify">
+
+                    <div class="centerify">
+                        <div class="col-xs-6 centerify" id="quiz" style="font-size:20px"></div>
+                        <div id="answers" class="row centerify"></div>
+
+                        <div class="col-xs-12 results centerify" id="output"></div>
+                        <div class="col-xs-12 centerify" id="medal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="#"> Hauskuuksia Horisontissa</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+        <script src="visa.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    </body>
+</html>

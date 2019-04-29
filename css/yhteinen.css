@@ -1,0 +1,151 @@
+/* 
+    Created on : Oct 28, 2018
+    Author     : Hauskuuksia Horisontissa
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Caveat:700');
+
+body {
+    font-family: 'Caveat', cursive;
+    /* The image used */
+    background-image: url("../Img/taustakuva2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+
+.navbar-blue {
+    background-image: linear-gradient(to bottom right, rgb(14, 187, 255) , rgb(167, 237, 255));
+
+}
+
+.logo {
+    position:absolute;
+    width:200px;
+    left:50px;
+    top:-30px;
+}
+
+.nav-item {
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+#kartta {
+    width:75%;
+    margin-top: 8%;
+}
+
+.navbar-brand {
+    margin-left:15%;
+    
+}
+
+.varjo {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    
+}
+
+.nav-link:hover, .text-white:hover, .varjo:hover, a:hover {
+    color: rgb(255, 250, 174) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.page-footer {
+    margin-top:2%;
+    margin-bottom:0;
+}
+
+.bg-dark {
+    background-image: rgba(0, 102, 116, 0.3);
+}
+
+.page-footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width:100%;
+}
+
+i {
+    color: rgb(0, 153, 255);
+}
+
+i:hover {
+    color: rgb(0, 123, 206);
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(to bottom right, rgb(14, 187, 255) , rgb(167, 237, 255));
+}
+    
+.dropdown-item {
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size:1.5em;
+}
+
+.dropdown-item:hover {
+    color: rgb(255, 250, 174);
+    background-color:transparent;
+}
+
+span {
+margin-left:3px;
+}
+
+.papukaija {
+    display:block;
+    width:60%;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10%;
+    z-index:-1;
+} 
+
+.palakki {
+    background-color: snow;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    Margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    font-family: arial;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+}
+.YTkuva {
+    margin-left:300px;
+    margin-top:-400px;
+    
+    
+}
+.pazka { /* lol menikö into? :D */
+    display: inline-block;
+}
+
+.rajaus {
+    border-right:2px solid #f0f0f0;
+}
+
+@media (min-width: 576px) { 
+    body {
+        background-color:white;
+    }
+    .palakki {
+        background-color:white;
+    }
+}

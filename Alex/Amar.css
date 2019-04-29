@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Nov-2018, 09:56:41
+    Author     : peniscadet
+*/
+
+.centerify {margin: auto;    
+    display: block;
+    text-align: center}
+
+.debug {border: 3px solid cyan}
+
+.quiz{
+    font-size: 50px;
+}
+
+.button {font-size: 20px}
+
+#entire {position:relative}
+
+.intro p {font-size:20px}
+
+.quizphoto {font-size:10px;
+            max-width:300px;
+            margin-top:20px;
+            border-radius:50px;
+            max-height:500px;}
+
+.quizphoto2 {font-size:10px;
+            max-width:500px;
+            margin-top:20px;
+            border-radius:50px;
+            max-height:500px;}
+
+img {border-radius:50px;
+    position:relative;
+    z-index:999;
+}
+
+.scroll {z-index:-1;
+        max-width:1000px;}
+        
+#output {
+    font-size: 20px;
+}
+
+#medal {
+    max-width:100px;
+    border-radius:0px;
+}
